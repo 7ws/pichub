@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
-  "description": "This project does nothing useful. Yet.",
-  "repository": "https://github.com/7ws/django-boilerplate/",
+  "name": "pichub",
+  "description": "The project intends to ease hosting and access to personal emojis, stickers and animated GIFs.",
+  "repository": "https://github.com/7ws/pichub",
   "formation": {
     "web": {
       "quantity": 1,
@@ -10,7 +10,7 @@
   },
   "buildpacks": [
     {
-      "url": "heroku/ruby"
+      "url": "heroku/python"
     }
   ],
   "addons": [
