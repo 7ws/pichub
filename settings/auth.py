@@ -1,6 +1,3 @@
-from configurations import values
-
-
 class AuthenticationSettings:
     """
     Settings related to authentication throughout all apps
