@@ -12,4 +12,4 @@ Django==1.10.5
 djangorestframework==3.5.3
 honcho==0.7.1
 psycopg2==2.6.2
-python-dotenv==0.6.1
+python-dotenv==0.6.2
