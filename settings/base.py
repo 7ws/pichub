@@ -70,3 +70,4 @@ class DjangoOverrides:
     USE_I18N = True
     USE_L10N = False
     USE_TZ = True
+    SITE_ID = 1
