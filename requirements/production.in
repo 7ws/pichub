@@ -6,3 +6,4 @@ djangorestframework
 honcho
 psycopg2
 python-dotenv
+django-allauth
