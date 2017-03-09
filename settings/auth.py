@@ -20,3 +20,16 @@ class AuthenticationSettings:
         # `allauth` specific authentication methods, such as login by e-mail
         'allauth.account.auth_backends.AuthenticationBackend',
     )
+
+    # django-allauth providers
+    SOCIALACCOUNT_PROVIDERS = {
+        'google': {
+            'SCOPE': [
+                'profile',
+                'email',
+            ],
+            'AUTH_PARAMS': {
+                'access_type': 'online',
+            }
+        },
+    }
