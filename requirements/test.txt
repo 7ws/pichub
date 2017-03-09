@@ -4,24 +4,24 @@
 #
 #    pip-compile --output-file requirements/test.txt requirements/production.in requirements/test.in
 #
-appdirs==1.4.0            # via setuptools
+appdirs==1.4.3            # via setuptools
 click==6.7                # via python-dotenv
 coverage==4.3.4
 dj-database-url==0.4.2
 dj-email-url==0.0.10
 django-configurations==2.0
-Django==1.10.5            # via model-mommy
-djangorestframework==3.5.3
+Django==1.10.6            # via model-mommy
+djangorestframework==3.6.1
 honcho==0.7.1
-model-mommy==1.3.1
+model-mommy==1.3.2
 packaging==16.8           # via setuptools
-psycopg2==2.6.2
+psycopg2==2.7
 py==1.4.32                # via pytest
-pyparsing==2.1.10         # via packaging
+pyparsing==2.2.0          # via packaging
 pytest-django==3.1.2
 pytest==3.0.6
 python-dateutil==2.6.0
-python-dotenv==0.6.2
+python-dotenv==0.6.3
 six==1.10.0               # via model-mommy, packaging, python-dateutil, setuptools
 
 # The following packages are considered to be unsafe in a requirements file:
