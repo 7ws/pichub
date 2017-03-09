@@ -18,10 +18,16 @@ class DjangoOverrides:
         'django.contrib.contenttypes',
         'django.contrib.sessions',
         'django.contrib.messages',
+        'django.contrib.sites',
         'django.contrib.staticfiles',
 
         # Third-party
-        # ...
+        'allauth',
+        'allauth.account',
+        'allauth.socialaccount',
+        # django-allauth providers
+        'allauth.socialaccount.providers.facebook',
+        'allauth.socialaccount.providers.google',
     ]
 
     MIDDLEWARE = [
