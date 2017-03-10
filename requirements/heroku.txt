@@ -5,13 +5,19 @@
 #    pip-compile --output-file requirements/heroku.txt requirements/heroku.in
 #
 click==6.7                # via python-dotenv
+defusedxml==0.5.0         # via python3-openid
 dj-database-url==0.4.2
 dj-email-url==0.0.10
+django-allauth==0.31.0
 django-configurations==2.0
-Django==1.10.5
-djangorestframework==3.5.3
-gunicorn==19.6.0
+Django==1.10.6            # via django-allauth
+djangorestframework==3.6.1
+gunicorn==19.7.0
 honcho==0.7.1
-psycopg2==2.6.2
-python-dotenv==0.6.2
+oauthlib==2.0.1           # via requests-oauthlib
+psycopg2==2.7
+python-dotenv==0.6.3
+python3-openid==3.1.0     # via django-allauth
+requests-oauthlib==0.8.0  # via django-allauth
+requests==2.13.0          # via django-allauth, requests-oauthlib
 whitenoise==3.3.0
